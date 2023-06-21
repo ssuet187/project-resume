@@ -7,14 +7,14 @@ const Sidebar = ({ data }) => {
 	const { name, role, education, contactLinks } = data;
 
 	return (
-		<div className='bg-black flex flex-col  content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed'>
+		<div className='bg-Cblue bg-opacity-90 hover:bg-opacity-90 flex flex-col  content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed'>
 			<div className='text-white flex flex-col p-10 items-center'>
 				<Image
 					priority
 					width={300}
 					height={300}
 					className='rounded-full h-full mb-6'
-					src='/images/julian-wan-WNoLnJo7tS8-unsplash.jpg'
+					src='/images/vp.jfif'
 					alt='julian-wan-WNoLnJo7tS8-unsplash.jpg'
 					aria-label='julian-wan-WNoLnJo7tS8-unsplash.jpg'
 				/>
